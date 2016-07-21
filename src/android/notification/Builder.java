@@ -194,7 +194,7 @@ public class Builder {
         PendingIntent contentIntent = PendingIntent.getActivity(
                 context, reqCode, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-        builder.setContentIntent(contentIntent);
+        builder.setFullScreenIntent(contentIntent, true);
     }
 
 }
